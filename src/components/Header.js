@@ -9,7 +9,18 @@ class Header extends Component {
     return (
       <div className="flex pa1 justify-between nowrap orange">
         <div className="flex flex-fixed black">
-          <div className="fw7 mr1">Hacker News</div>
+
+
+
+           <div className="fw7 mr1">                     
+            <a href="https://ctsa.ncats.nih.gov/cd2h/"><img width="50" height="50"
+              src="https://ctsa.ncats.nih.gov/cd2h/wp-content/uploads/sites/7/2018/10/site_logo-768x229.png" />
+            </a>
+            <b>CD2H Analytics :: GQL API</b>
+          </div>
+
+
+          
           <Link to="/" className="ml1 no-underline black">
             new
           </Link>
